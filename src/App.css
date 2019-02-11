@@ -1,3 +1,40 @@
+body {
+  background-color: #333;
+}
+
+canvas {
+  margin-top: 20px;
+  border: 1px solid #000;
+}
+
+.pixel {
+}
+
+
+.pixel:hover {
+  background-color: white;
+  background-color: white !important;
+}
+
+.buffer {
+  position: relative;
+  margin: 50px auto;
+}
+
+.info {
+  font-family: 'helvetica neue', georgia;
+  font-weight: 900;
+  text-shadow: 0 0 3px yellow;
+  font-size: 11px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 32%;
+  left: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
